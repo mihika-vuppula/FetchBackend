@@ -1,0 +1,18 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+   - I chose Python because of its ease of use, readability, and vast selection of libraries which helps in quickly developing scalable applications. 
+   - Flask was chosen for its lightweight and micro web framework capabilities that provide the necessary tools and libraries to build a web application.
+   - The json library was used for handling JSON data which is a common format for sending and receiving data in web applications.
+   - The uuid library was used to create a unique identifier for each redeem point which makes it easier to track individual transactions.
+
+2. What are the advantages and disadvantages of your solution?
+   Advantages:
+   - The code is structured in a way that separates concerns, making it easier to manage. 
+   - It demonstrates RESTful API design (add, spend, balance, pointlist) which is a widely accepted standard for web API architecture.
+   - The use of the class `RedeemPoint` helps in encapsulating related data and behavior into objects.
+   
+   Disadvantages:
+   - The spendPoints function has a lot of nested conditionals which could make the function difficult to read, debug, or extend in the future.
+   - The data is not being persisted to a database, so all the data will be lost if the server goes down. 
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+   - A favorite project of mine has been the "Flight Agenda Mapper" which was a part of my Computer Science 400 Class Group Project in December 2022. In this project, I programmed an application in Java to provide the shortest possible flight path between two airports using the Dijkstra Algorithm. The challenging part was ensuring the correctness and efficiency of the algorithm implementation to provide real-time solutions. Performing integration testing using the J-Unit framework was also a learning experience as it highlighted the importance of testing in software development, especially in verifying the correctness of algorithmic solutions and ensuring that different parts of the system work together seamlessly.

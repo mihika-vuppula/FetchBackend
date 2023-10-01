@@ -1,0 +1,9 @@
+1) Install python and its package manager it called as "pip"
+
+2) Use nelow command to install dependancy
+pip install -r requirements.txt
+
+3) Afte install call
+py app.py
+
+check the http://localhost:8000
